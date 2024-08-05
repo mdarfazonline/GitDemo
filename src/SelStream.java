@@ -50,8 +50,9 @@ public class SelStream {
 		// TODO Auto-generated method stub
 		
 		String price=s.findElement(By.xpath("following-sibling::td[1]")).getText();
-		
+		System.out.println("These are the updates");
 		return price;
+		
 	}
 
 }

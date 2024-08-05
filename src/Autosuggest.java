@@ -19,7 +19,7 @@ public class Autosuggest {
 		driver.findElement(By.id("autocomplete")).sendKeys(Keys.DOWN);
 		
 		System.out.println(driver.findElement(By.id("autocomplete")).getAttribute("value"));
-	
+		System.out.println("These are the updates");
 	}
 
 }

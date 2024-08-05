@@ -15,7 +15,7 @@ public class nestedFrames {
 		driver.switchTo().frame(driver.findElement(By.cssSelector("frame[name='frame-middle']")));
 		System.out.println(driver.findElement(By.cssSelector("body")).getText());
 		
-		
+		System.out.println("These are the updates");
 	}
 
 }
