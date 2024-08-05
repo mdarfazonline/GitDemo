@@ -33,6 +33,9 @@ public class actionDemo {
 //		driver.findElement(By.cssSelector("input[id=\"username\"]")).sendKeys(a);
 //		
 		System.out.println("These are the updates");
-		
+		System.out.println("These are the updates");
+		System.out.println("These are the updates");
+		System.out.println("These are the updates");
+		System.out.println("These are the updates");
 	}
 }
