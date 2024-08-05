@@ -40,7 +40,7 @@ public class Login {
 		
 		driver.findElement(By.cssSelector("input[id='signInBtn']")).click();
 		
-		
+		System.out.println("These are the updates for Dev branch");
 		w.until(ExpectedConditions.visibilityOfElementLocated(By.partialLinkText("Checkout")));
 
 		List <WebElement> products = driver.findElements(By.cssSelector(".card-footer .btn-info"));

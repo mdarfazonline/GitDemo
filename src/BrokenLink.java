@@ -43,6 +43,7 @@ public class BrokenLink {
 		softAssert.assertTrue(respcode<400, "The link with Text"+url+" is broken with code " +respcode);
 		System.out.println(url+" : "+respcode);
 		}
+		System.out.println("These are the updates for Dev branch");
 		
 		softAssert.assertAll();
 		
