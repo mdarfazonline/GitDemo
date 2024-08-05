@@ -39,7 +39,7 @@ public class actionDemo {
 		System.out.println("These are the updates");
 		
 		
-		System.out.println("These are the updates for Dev branch");
+		System.out.println("These are the updates for Dev2 branch");
 	}
 
 	
